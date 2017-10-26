@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	margin:0;
+	
+}
+
+#bg{
+	background-image:url(nobelbackgrund.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+#Minibox{
+	
+	width:70%;
+	height:100%;
+	margin-left:15%;
+	
+}
+
+header{
+	color:rgba(0,0,0,1);
+	width:100%;
+	height:10%;
+	background-color:rgba(102,102,102,0.7);
+	font-size:48px;
+	text-align:center;
+	box-sizing:border-box;
+	overflow:hidden;
+	padding-bottom:5%;
+	text-decoration:underline;
+	
+}
+nav{
+	background-color:rgba(51,51,51,0.9);
+	width:100%;
+	height:10%;
+	color:rgba(0,0,0,1);
+	font-size:36px;
+	
+}
+article{
+	background-color:rgba(102,102,102,0.8);
+	width:100%;
+	height:70%;
+	color:rgba(0,0,0,1);
+	padding:25px;
+	box-sizing:border-box;
+	text-align:left;
+	font-size:18px;
+	
+	
+}
+footer{
+	background-color:rgba(102,102,102,0.9);
+	height:10%;
+	width:100%;
+	opacity:0.8;
+}
+ul{
+	list-style:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+	width:70%;
+	height:100%;
+	
+}
+li{
+	line-height:40px;
+	height:100%;
+	width:33%;
+	float:left
+}
+a{
+	color:#000;
+}
